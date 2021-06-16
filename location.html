@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>main</title>
+<style tyep="text/css">
+
+img{border:0; width:700px;}
+
+	#jb-fixed{
+		width:100%;
+		height:2000px;
+		overflow:hidden;
+		background-image: url("background.png");
+		background-repeat: no-repeat;
+		background-size: cover;
+		background-attachment: fixed; /*백그라운드 사진을 고정시키려면 백그라운드 준 곳에다가 고정시키면된다*/
+		color:#fff;
+		text-align:center;
+	}
+	#logo{
+	width:100%;
+	height: auto;
+	margin-top:150px;
+	margin-bottom:50px;
+	}
+	/*이미지를 가운데로 이동하려면 text-align:center; 을 써줘야한다 */
+	#goods{
+	width:146px;
+	height: auto;
+	margin:0 auto;
+	}
+	#goods img{
+		width:100%;
+		display:block;
+		vertical-align:bottom;
+	}
+	/*이미지는 인라인 속성이라서 text-align:center를 줘야 가운데로 가고
+	지금은 이미지 코드 안에 display:block; 속성을 줘서  #goods  태그에 있는 margin:0 auto 속성을 먹기 때문에 가운데로 간것 ! */
+
+
+	#t-shirt{width:100%;}
+	#t-shirt img{margin:20px auto;}
+
+
+	#logo img{width:600px; display:block; margin:0 auto;}
+	#logo2>img{width:442px; margin-bottom:50px;}
+	#logo2{text-align:left; margin-left:70px;}
+
+</style>
+</head>
+	<body>
+
+		<div id="jb-fixed">  <!--전체 감싸기-->
+
+			<div id="logo"><a href="index.html"><img src="logo1.png" alt="로고"/></a></div>  <!--로고-->
+			<div id="logo2"><img src="location1.png" alt=""/></div>
+
+
+							   <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1930.5367372743028!2d129.25993611957995!3d35.534857853761714!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x5fe2e09fc76ff40d!2z66y47IiY7Zi467CY6rSR7J6l!5e0!3m2!1sko!2skr!4v1622035609145!5m2!1sko!2skr" width="700" height="700" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+		</div>
+</body>
+</html>

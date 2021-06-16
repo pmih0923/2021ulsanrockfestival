@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>main</title>
+<style tyep="text/css">
+
+img{border:0; width:700px;}
+
+	#jb-fixed{
+		width:100%;
+		height:1728px;
+		overflow:hidden;
+		background-image: url("background.png");
+		background-repeat: no-repeat;
+		background-size: cover;
+		background-attachment: fixed; /*백그라운드 사진을 고정시키려면 백그라운드 준 곳에다가 고정시키면된다*/
+		color:#fff;
+		text-align:center;
+	}
+	#logo{
+	width:100%;
+	height: auto;
+	margin-top:150px;
+	margin-bottom:200px;
+	}
+		li{text-align:center;}
+	ul{
+		list-style-type: none;
+		margin: 0;
+		padding: 0;
+		width: 700px;
+	}
+	li a{
+		display: block;
+		color: #FFFFFF;
+		padding: 8px;
+		text-decoration: none;
+		font-family: "나눔고딕 ExtraBold";
+		font-size: 70px;
+		font-weight: bold;
+	}
+	li a:hover {
+		background-color: #292929;
+		color: white;
+	}
+	.center{margin:0 auto;}
+
+</style>
+</head>
+	<body>
+
+		<div id="jb-fixed">  <!--전체 감싸기-->
+
+			<div id="logo"><a href="index.html"><img src="logo1.png" alt="로고"/></a></div>  <!--로고-->
+
+		                       <ul class="center">
+						   <li><a class="menuLink" href="notice.html">Notice</a></li>
+                               <li><a class="menuLink" href="lineup.html">Line up</a></li>
+                               <li><a class="menuLink" href="goods.html">Goods</a></li>
+                               <li><a class="menuLink" href="location.html">Location</a></li>
+                               <li><a class="menuLink" href="sponsors.html">Sponsors</a></li>
+                               <li><a class="menuLink" href="sns.html">SNS</a></li>
+                       </ul>
+			</div> <!--끝-->
+</body>
+</html>
